@@ -1,0 +1,49 @@
+# Created by pytest automatically.
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+logs/
+tmp/
+temp/
+*.log
+
+# Generated processing files
+data/interim/
+data/processed/
+data/extracted/
+data/generated/
+output/
+outputs/
+
+# Test and coverage outputs
+.coverage
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+Commands and notes.docx
